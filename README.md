@@ -10,6 +10,8 @@ spirit of a high-end block-building campus showcase, at **1 block = 1 metre**.
 It is **not** a game world, mod, server or download, it needs no game installation, and it uses
 **no game assets**: every texture is generated procedurally in [`src/lib/voxel/textures.ts`](src/lib/voxel/textures.ts).
 
+**Live site: <https://cuhk-campus.vercel.app>**
+
 > Unofficial. Not affiliated with or endorsed by CUHK. **Not for navigation, accessibility
 > planning, safety or operational decisions.** See [docs/ACCURACY.md](docs/ACCURACY.md).
 

@@ -1,0 +1,1233 @@
+{
+ "generatedAt": "2026-11-10T10:08:08.424Z",
+ "stats": {
+  "buildings": 729,
+  "tierA": 10,
+  "tierB": 155,
+  "tierC": 564,
+  "officialBuildings": 159,
+  "officialMatched": 156,
+  "geomVerified": 146,
+  "geomInferred": 19,
+  "geomApproximate": 564,
+  "features": 1249,
+  "trees": 53370,
+  "props": 5114,
+  "structureQuads": 324922,
+  "maxTerrainM": 257,
+  "roadWays": 731,
+  "pathWays": 639,
+  "bridgeWays": 101
+ },
+ "officialMatches": [
+  {
+   "code": "H1",
+   "name": "Benjamin Franklin Centre",
+   "method": "official-name",
+   "osm": "way/135265606",
+   "distM": 0
+  },
+  {
+   "code": "H2",
+   "name": "University Administration Building",
+   "method": "official-name",
+   "osm": "way/174133709",
+   "distM": 1
+  },
+  {
+   "code": "H2a",
+   "name": "Cho Yiu Hall",
+   "method": "official-name",
+   "osm": "way/107139025",
+   "distM": 0
+  },
+  {
+   "code": "H3",
+   "name": "University Library",
+   "method": "official-name",
+   "osm": "way/134410449",
+   "distM": 0
+  },
+  {
+   "code": "H3a",
+   "name": "Tin Ka Ping Building",
+   "method": "official-name",
+   "osm": "way/134410444",
+   "distM": 0
+  },
+  {
+   "code": "H4",
+   "name": "Institute of Chinese Studies",
+   "method": "official-name",
+   "osm": "relation/2096073",
+   "distM": 5
+  },
+  {
+   "code": "H4",
+   "name": "Art Museum",
+   "method": "official-location",
+   "osm": "relation/2096073",
+   "distM": 0
+  },
+  {
+   "code": "H5",
+   "name": "Art Museum of CUHK—Lo Kwee Seong Pavilion",
+   "method": "official-location",
+   "osm": "way/1424900701",
+   "distM": 1
+  },
+  {
+   "code": "H6",
+   "name": "Sui Loong Pao Building",
+   "method": "official-name",
+   "osm": "way/107139026",
+   "distM": 0
+  },
+  {
+   "code": "H7",
+   "name": "Pi Ch'iu Building",
+   "method": "official-name",
+   "osm": "way/107139024",
+   "distM": 0
+  },
+  {
+   "code": "H8",
+   "name": "Y.C. Liang Hall",
+   "method": "official-name",
+   "osm": "way/185740160",
+   "distM": 0
+  },
+  {
+   "code": "H9",
+   "name": "Sir Run Run Shaw Hall",
+   "method": "official-name",
+   "osm": "way/107139030",
+   "distM": 1
+  },
+  {
+   "code": "H10",
+   "name": "University Science Centre",
+   "method": "official-name",
+   "osm": "way/134410450",
+   "distM": 0
+  },
+  {
+   "code": "H10a",
+   "name": "Science Centre East Block",
+   "method": "official-name",
+   "osm": "way/134410447",
+   "distM": 0
+  },
+  {
+   "code": "H11",
+   "name": "Choh-Ming Li Basic Medical Sciences Building",
+   "method": "official-name",
+   "osm": "way/134410448",
+   "distM": 0
+  },
+  {
+   "code": "H11a",
+   "name": "Basic Medical Sciences Building Teaching Annex",
+   "method": "official-location",
+   "osm": "way/134410447",
+   "distM": 13
+  },
+  {
+   "code": "H12",
+   "name": "Lady Ho Tung Hall",
+   "method": "official-name",
+   "osm": "way/421937237",
+   "distM": 0
+  },
+  {
+   "code": "H15",
+   "name": "Chan Chun Ha Hall",
+   "method": "official-name",
+   "osm": "way/421850856",
+   "distM": 1
+  },
+  {
+   "code": "H15a",
+   "name": "Estates and Maintenance Building Annex",
+   "method": "official-name",
+   "osm": "way/437402398",
+   "distM": 1
+  },
+  {
+   "code": "H16",
+   "name": "University Health Centre",
+   "method": "official-name",
+   "osm": "way/135190717",
+   "distM": 0
+  },
+  {
+   "code": "H17",
+   "name": "Yali Guest House",
+   "method": "official-name",
+   "osm": "way/135190720",
+   "distM": 1
+  },
+  {
+   "code": "H17a",
+   "name": "Chan Kwan Tung Inter-University Hall",
+   "method": "official-name",
+   "osm": "way/135190721",
+   "distM": 0
+  },
+  {
+   "code": "H17b",
+   "name": "Chiangs Building (Postgraduate Hall No. 2)",
+   "method": "official-location",
+   "osm": "way/135190719",
+   "distM": 0
+  },
+  {
+   "code": "H18",
+   "name": "Minor Staff Quarters 1",
+   "method": "official-location",
+   "osm": "way/135190724",
+   "distM": 0
+  },
+  {
+   "code": "H19",
+   "name": "Minor Staff Quarters 2",
+   "method": "official-name",
+   "osm": "way/135190724",
+   "distM": 8
+  },
+  {
+   "code": "H20a",
+   "name": "Panacea Lodge",
+   "method": "official-name",
+   "osm": "way/135190722",
+   "distM": 0
+  },
+  {
+   "code": "H21",
+   "name": "University Sports Centre",
+   "method": "official-name",
+   "osm": "way/134820401",
+   "distM": 0
+  },
+  {
+   "code": "H22",
+   "name": "Kwok Sports Building",
+   "method": "official-name",
+   "osm": "way/135182311",
+   "distM": 0
+  },
+  {
+   "code": "H23a",
+   "name": "Lee Shau Kee Building",
+   "method": "official-name",
+   "osm": "way/188010216",
+   "distM": 0
+  },
+  {
+   "code": "H24",
+   "name": "Lady Shaw Building",
+   "method": "official-name",
+   "osm": "relation/1806438",
+   "distM": 11
+  },
+  {
+   "code": "H25",
+   "name": "Ho Sin-Hang Engineering Building",
+   "method": "official-name",
+   "osm": "way/135312912",
+   "distM": 0
+  },
+  {
+   "code": "H26",
+   "name": "Security and Transport Building",
+   "method": "official-name",
+   "osm": "way/135312914",
+   "distM": 1
+  },
+  {
+   "code": "H27",
+   "name": "Fung King Hey Building",
+   "method": "official-name",
+   "osm": "way/135265380",
+   "distM": 1
+  },
+  {
+   "code": "H28",
+   "name": "Leung Kau Kui Building",
+   "method": "official-name",
+   "osm": "way/135265381",
+   "distM": 1
+  },
+  {
+   "code": "H29",
+   "name": "John Fulton Centre",
+   "method": "official-name",
+   "osm": "way/135265609",
+   "distM": 0
+  },
+  {
+   "code": "H30",
+   "name": "Mong Man Wai Building",
+   "method": "official-name",
+   "osm": "way/134410719",
+   "distM": 0
+  },
+  {
+   "code": "H32",
+   "name": "William M.W. Mong Engineering Building",
+   "method": "official-name",
+   "osm": "way/135311808",
+   "distM": 0
+  },
+  {
+   "code": "H33",
+   "name": "Academic Building No. 1",
+   "method": "official-name",
+   "osm": "way/135311802",
+   "distM": 0
+  },
+  {
+   "code": "H34",
+   "name": "Run Run Shaw Science Building",
+   "method": "official-name",
+   "osm": "way/107139044",
+   "distM": 1
+  },
+  {
+   "code": "H40",
+   "name": "Satellite Remote Sensing Receiving Station",
+   "method": "official-name",
+   "osm": "way/135904889",
+   "distM": 0
+  },
+  {
+   "code": "C1",
+   "name": "Esther Lee Building",
+   "method": "official-name",
+   "osm": "way/135156233",
+   "distM": 1
+  },
+  {
+   "code": "C1a",
+   "name": "Lee Hysan Concert Hall",
+   "method": "official-location",
+   "osm": "way/135156233",
+   "distM": 0
+  },
+  {
+   "code": "C2",
+   "name": "Chung Chi College Administration Building",
+   "method": "official-name",
+   "osm": "way/135156234",
+   "distM": 0
+  },
+  {
+   "code": "C3",
+   "name": "Li Wai Chun Building",
+   "method": "official-name",
+   "osm": "way/135098352",
+   "distM": 0
+  },
+  {
+   "code": "C3a",
+   "name": "Hui Yeung Shing Building",
+   "method": "official-name",
+   "osm": "way/135181545",
+   "distM": 0
+  },
+  {
+   "code": "C3b",
+   "name": "Wong Foo Yuan Building",
+   "method": "official-name",
+   "osm": "way/138223977",
+   "distM": 0
+  },
+  {
+   "code": "C3c",
+   "name": "Chen Kou Bun Building",
+   "method": "official-name",
+   "osm": "way/138223979",
+   "distM": 0
+  },
+  {
+   "code": "C3d",
+   "name": "Sino Building",
+   "method": "official-name",
+   "osm": "way/138223978",
+   "distM": 0
+  },
+  {
+   "code": "C4",
+   "name": "Chung Chi College Chapel",
+   "method": "official-name",
+   "osm": "way/135156315",
+   "distM": 0
+  },
+  {
+   "code": "C5",
+   "name": "Theology Building",
+   "method": "official-name",
+   "osm": "way/135311810",
+   "distM": 0
+  },
+  {
+   "code": "C6",
+   "name": "Lingnan Stadium",
+   "method": "official-name",
+   "osm": "way/134818772",
+   "distM": 1
+  },
+  {
+   "code": "C8",
+   "name": "Ho Tim Building",
+   "method": "official-name",
+   "osm": "way/135156235",
+   "distM": 1
+  },
+  {
+   "code": "C9",
+   "name": "Orchid Lodge",
+   "method": "official-name",
+   "osm": "way/696387736",
+   "distM": 3
+  },
+  {
+   "code": "C10",
+   "name": "Staff Club",
+   "method": "official-location",
+   "osm": "way/135156314",
+   "distM": 1
+  },
+  {
+   "code": "C11",
+   "name": "Elisabeth Luce Moore Library",
+   "method": "official-name",
+   "osm": "way/135021154",
+   "distM": 0
+  },
+  {
+   "code": "C12",
+   "name": "Chung Chi Tang",
+   "method": "official-name",
+   "osm": "way/923320403",
+   "distM": 0
+  },
+  {
+   "code": "C13",
+   "name": "Fong Yun Wah Hall",
+   "method": "official-name",
+   "osm": "way/134819421",
+   "distM": 1
+  },
+  {
+   "code": "C14",
+   "name": "Fong Shu Chuen Building",
+   "method": "official-name",
+   "osm": "way/134819424",
+   "distM": 2
+  },
+  {
+   "code": "C15",
+   "name": "Staff Quarters A",
+   "method": "official-name",
+   "osm": "way/135311814",
+   "distM": 1
+  },
+  {
+   "code": "C16",
+   "name": "Staff Quarters B",
+   "method": "official-name",
+   "osm": "way/135311803",
+   "distM": 0
+  },
+  {
+   "code": "C17",
+   "name": "Staff Quarters C",
+   "method": "official-name",
+   "osm": "way/135311798",
+   "distM": 0
+  },
+  {
+   "code": "C20",
+   "name": "Hua Lien Tang",
+   "method": "official-name",
+   "osm": "way/135021152",
+   "distM": 0
+  },
+  {
+   "code": "C21",
+   "name": "Ming Hua Tang",
+   "method": "official-name",
+   "osm": "way/135018848",
+   "distM": 1
+  },
+  {
+   "code": "C22",
+   "name": "Ying Lin Tang",
+   "method": "official-name",
+   "osm": "way/135018852",
+   "distM": 1
+  },
+  {
+   "code": "C23",
+   "name": "Madam S.H. Ho Hall",
+   "method": "official-name",
+   "osm": "way/135018853",
+   "distM": 0
+  },
+  {
+   "code": "C24",
+   "name": "Wen Chih Tang",
+   "method": "official-name",
+   "osm": "way/135018845",
+   "distM": 4
+  },
+  {
+   "code": "C25",
+   "name": "Staff Quarters S",
+   "method": "official-location",
+   "osm": "way/135021153",
+   "distM": 0
+  },
+  {
+   "code": "C29",
+   "name": "Staff Quarters E",
+   "method": "official-location",
+   "osm": "way/134819423",
+   "distM": 30
+  },
+  {
+   "code": "C30",
+   "name": "Inter-University Hall (Postgraduate Hall No.3)",
+   "method": "official-location",
+   "osm": "way/134819423",
+   "distM": 5
+  },
+  {
+   "code": "C31",
+   "name": "Wen Lin Tang",
+   "method": "official-name",
+   "osm": "way/135313705",
+   "distM": 0
+  },
+  {
+   "code": "C32",
+   "name": "Lee Shu Pui Hall",
+   "method": "official-name",
+   "osm": "way/135021155",
+   "distM": 0
+  },
+  {
+   "code": "C34a",
+   "name": "Pentecostal Mission Hall Complex (High Block)",
+   "method": "official-name",
+   "osm": "way/107139028",
+   "distM": 0
+  },
+  {
+   "code": "C34b",
+   "name": "Pentecostal Mission Hall Complex (Low Block)",
+   "method": "official-name",
+   "osm": "way/107139029",
+   "distM": 0
+  },
+  {
+   "code": "N1",
+   "name": "Cheng Ming Building",
+   "method": "official-name",
+   "osm": "way/134408689",
+   "distM": 0
+  },
+  {
+   "code": "N2",
+   "name": "Humanities Building",
+   "method": "official-name",
+   "osm": "way/134408690",
+   "distM": 0
+  },
+  {
+   "code": "N3",
+   "name": "Ch'ien Mu Library",
+   "method": "official-name",
+   "osm": "way/134408696",
+   "distM": 0
+  },
+  {
+   "code": "N4",
+   "name": "Staff Student Centre - Leung Hung Kee Building",
+   "method": "official-name",
+   "osm": "way/134408688",
+   "distM": 0
+  },
+  {
+   "code": "N5",
+   "name": "Chih Hsing Hall",
+   "method": "official-name",
+   "osm": "way/134408687",
+   "distM": 1
+  },
+  {
+   "code": "N6",
+   "name": "Friendship Lodge",
+   "method": "official-name",
+   "osm": "way/134408693",
+   "distM": 3
+  },
+  {
+   "code": "N7",
+   "name": "Xuesi Hall",
+   "method": "official-name",
+   "osm": "way/174133712",
+   "distM": 0
+  },
+  {
+   "code": "N8",
+   "name": "Grace Tien Hall",
+   "method": "official-name",
+   "osm": "way/134409115",
+   "distM": 5
+  },
+  {
+   "code": "N9",
+   "name": "Daisy Li Hall",
+   "method": "official-name",
+   "osm": "way/134409111",
+   "distM": 0
+  },
+  {
+   "code": "U1",
+   "name": "Tsang Shiu Tim Building",
+   "method": "official-name",
+   "osm": "way/135193164",
+   "distM": 1
+  },
+  {
+   "code": "U2",
+   "name": "United College Wu Chung Library",
+   "method": "official-location",
+   "osm": "way/135193166",
+   "distM": 0
+  },
+  {
+   "code": "U3",
+   "name": "T.C. Cheng Building",
+   "method": "official-name",
+   "osm": "relation/3086286",
+   "distM": 0
+  },
+  {
+   "code": "U4",
+   "name": "Cheung Chuk Shan Amenities Building",
+   "method": "official-name",
+   "osm": "way/135193913",
+   "distM": 0
+  },
+  {
+   "code": "U5",
+   "name": "Adam Schall Residence",
+   "method": "official-name",
+   "osm": "relation/2325105",
+   "distM": 0
+  },
+  {
+   "code": "U6",
+   "name": "Bethlehem Hall",
+   "method": "official-name",
+   "osm": "way/135191897",
+   "distM": 1
+  },
+  {
+   "code": "U7",
+   "name": "U.C. Staff Residence",
+   "method": "official-name",
+   "osm": "way/135264058",
+   "distM": 0
+  },
+  {
+   "code": "U8",
+   "name": "Hang Seng Hall",
+   "method": "official-name",
+   "osm": "way/135193917",
+   "distM": 0
+  },
+  {
+   "code": "U11",
+   "name": "Chan Chun Ha Hostel",
+   "method": "official-name",
+   "osm": "way/135193165",
+   "distM": 1
+  },
+  {
+   "code": "S1",
+   "name": "Kuo Mou Hall (High Block)",
+   "method": "official-location",
+   "osm": "way/135904508",
+   "distM": 0
+  },
+  {
+   "code": "S2",
+   "name": "Kuo Mou Hall (Low Block)",
+   "method": "official-location",
+   "osm": "way/135904508",
+   "distM": 0
+  },
+  {
+   "code": "S3",
+   "name": "Wen Lan Tang",
+   "method": "official-name",
+   "osm": "way/135904506",
+   "distM": 0
+  },
+  {
+   "code": "S4",
+   "name": "Ya Qun Lodge",
+   "method": "official-name",
+   "osm": "way/545778814",
+   "distM": 1
+  },
+  {
+   "code": "S5",
+   "name": "Shaw College Lecture Theatre",
+   "method": "official-name",
+   "osm": "way/135904507",
+   "distM": 0
+  },
+  {
+   "code": "S6",
+   "name": "Yat Sen Hall",
+   "method": "official-name",
+   "osm": "way/135904004",
+   "distM": 0
+  },
+  {
+   "code": "S8",
+   "name": "Shaw College Student Hostel 2 (Low Block)",
+   "method": "official-location",
+   "osm": "way/135904006",
+   "distM": 0
+  },
+  {
+   "code": "IH1",
+   "name": "International House 1",
+   "method": "official-name",
+   "osm": "way/135264056",
+   "distM": 0
+  },
+  {
+   "code": "IH2",
+   "name": "International House 2",
+   "method": "official-name",
+   "osm": "way/135264069",
+   "distM": 1
+  },
+  {
+   "code": "PGH1",
+   "name": "Jockey Club Postgraduate Hall 1",
+   "method": "official-name",
+   "osm": "way/696387742",
+   "distM": 0
+  },
+  {
+   "code": "PGH4",
+   "name": "Postgraduate Hall No. 4",
+   "method": "official-name",
+   "osm": "way/135264066",
+   "distM": 0
+  },
+  {
+   "code": "PGH5",
+   "name": "Postgraduate Hall No. 5",
+   "method": "official-name",
+   "osm": "way/135264060",
+   "distM": 0
+  },
+  {
+   "code": "PGH6",
+   "name": "Postgraduate Hall No. 6",
+   "method": "official-name",
+   "osm": "way/135264063",
+   "distM": 0
+  },
+  {
+   "code": "V1",
+   "name": "Vice-Chancellor's Residence",
+   "method": "official-name",
+   "osm": "way/136637847",
+   "distM": 1
+  },
+  {
+   "code": "R3",
+   "name": "University Residence No. 3",
+   "method": "official-location",
+   "osm": "way/135315191",
+   "distM": 0
+  },
+  {
+   "code": "R4",
+   "name": "University Residence No. 4",
+   "method": "unmatched"
+  },
+  {
+   "code": "R10",
+   "name": "University Residence No. 10",
+   "method": "official-name",
+   "osm": "way/135264901",
+   "distM": 0
+  },
+  {
+   "code": "R11",
+   "name": "University Residence No. 11",
+   "method": "official-name",
+   "osm": "way/135264904",
+   "distM": 1
+  },
+  {
+   "code": "R12",
+   "name": "University Residence No. 12",
+   "method": "official-name",
+   "osm": "way/135264405",
+   "distM": 0
+  },
+  {
+   "code": "R13",
+   "name": "University Residence No. 13",
+   "method": "official-name",
+   "osm": "way/135264402",
+   "distM": 0
+  },
+  {
+   "code": "R14",
+   "name": "University Residence No. 14",
+   "method": "official-name",
+   "osm": "way/135265382",
+   "distM": 0
+  },
+  {
+   "code": "R15",
+   "name": "University Residence No. 15",
+   "method": "official-name",
+   "osm": "way/135264404",
+   "distM": 0
+  },
+  {
+   "code": "R16",
+   "name": "University Residence No. 16",
+   "method": "official-name",
+   "osm": "way/135265376",
+   "distM": 0
+  },
+  {
+   "code": "R17",
+   "name": "University Residence No. 17",
+   "method": "official-name",
+   "osm": "way/135265375",
+   "distM": 0
+  },
+  {
+   "code": "E1",
+   "name": "Hong Kong Institute of Biotechnology",
+   "method": "official-name",
+   "osm": "way/255891590",
+   "distM": 0
+  },
+  {
+   "code": "E2",
+   "name": "Academic Building No. 2",
+   "method": "official-name",
+   "osm": "way/135787366",
+   "distM": 1
+  },
+  {
+   "code": "E3",
+   "name": "Simon F.S. Li Marine Science Laboratory Simon F.S. Li Building",
+   "method": "official-location",
+   "osm": "way/255891597",
+   "distM": 17
+  },
+  {
+   "code": "E4",
+   "name": "Water Sports Centre",
+   "method": "unmatched"
+  },
+  {
+   "code": "E5",
+   "name": "Shanghai Fraternity Association Research Services Centre",
+   "method": "official-name",
+   "osm": "way/135906003",
+   "distM": 0
+  },
+  {
+   "code": "E5a",
+   "name": "Physical Geography Experimental Station",
+   "method": "official-location",
+   "osm": "way/135906004",
+   "distM": 8
+  },
+  {
+   "code": "H21a",
+   "name": "Sports Field Annex 1",
+   "method": "unmatched"
+  },
+  {
+   "code": "U11a",
+   "name": "Si Yuan Amphitheatre",
+   "method": "official-location",
+   "osm": "way/135193165",
+   "distM": 13
+  },
+  {
+   "code": "E8",
+   "name": "Cheng Yu Tung Building",
+   "method": "official-name",
+   "osm": "way/185266979",
+   "distM": 5
+  },
+  {
+   "code": "E9",
+   "name": "Hyatt Regency Hong Kong, Shatin",
+   "method": "official-name",
+   "osm": "way/185253514",
+   "distM": 1
+  },
+  {
+   "code": "H31",
+   "name": "Nissen Huts",
+   "method": "official-location",
+   "osm": "way/772869173",
+   "distM": 0
+  },
+  {
+   "code": "H23",
+   "name": "Li Dak Sum Building",
+   "method": "official-name",
+   "osm": "way/188010213",
+   "distM": 0
+  },
+  {
+   "code": "H4a",
+   "name": "West Wing of the Art Museum",
+   "method": "official-location",
+   "osm": "way/1424900700",
+   "distM": 0
+  },
+  {
+   "code": "H4b",
+   "name": "East Wing of the Art Museum",
+   "method": "official-location",
+   "osm": "way/1424900699",
+   "distM": 1
+  },
+  {
+   "code": "H46",
+   "name": "Estates Management Office Headquarters",
+   "method": "official-location",
+   "osm": "way/772869174",
+   "distM": 0
+  },
+  {
+   "code": "C38",
+   "name": "Pommerenke Student Centre",
+   "method": "official-name",
+   "osm": "way/230129212",
+   "distM": 0
+  },
+  {
+   "code": "C5a",
+   "name": "President Chi-tung Yung Memorial Building",
+   "method": "official-name",
+   "osm": "way/219389532",
+   "distM": 0
+  },
+  {
+   "code": "E13",
+   "name": "Satellite Remote Sensing Receiving Station",
+   "method": "official-location",
+   "osm": "way/744825499",
+   "distM": 4
+  },
+  {
+   "code": "H40a",
+   "name": "Fok Ying Tung Remote Sensing Science Building",
+   "method": "official-name",
+   "osm": "way/135904891",
+   "distM": 0
+  },
+  {
+   "code": "A8",
+   "name": "Lo Kwee-Seong Integrated Biomedical Sciences Building",
+   "method": "official-name",
+   "osm": "relation/2532440",
+   "distM": 0
+  },
+  {
+   "code": "C39a",
+   "name": "Yasumoto International Academic Park",
+   "method": "official-name",
+   "osm": "way/201907981",
+   "distM": 2
+  },
+  {
+   "code": "C39b",
+   "name": "Wu Ho Man Yuen Building",
+   "method": "official-name",
+   "osm": "way/201907994",
+   "distM": 0
+  },
+  {
+   "code": "C39c",
+   "name": "Lee Shau Kee Architecture Building",
+   "method": "official-name",
+   "osm": "way/201907977",
+   "distM": 1
+  },
+  {
+   "code": "MC1",
+   "name": "Maurice R. Greenberg Building",
+   "method": "official-name",
+   "osm": "way/193128663",
+   "distM": 2
+  },
+  {
+   "code": "MC2",
+   "name": "Morningside College Student Hostel (High Block)",
+   "method": "official-location",
+   "osm": "way/230185998",
+   "distM": 0
+  },
+  {
+   "code": "SH1",
+   "name": "Ho Tim Hall",
+   "method": "official-name",
+   "osm": "way/174133698",
+   "distM": 1
+  },
+  {
+   "code": "SH2",
+   "name": "Lee Quo Wei Hall",
+   "method": "official-name",
+   "osm": "way/174133703",
+   "distM": 1
+  },
+  {
+   "code": "IH3",
+   "name": "International House 3",
+   "method": "official-name",
+   "osm": "way/135190718",
+   "distM": 0
+  },
+  {
+   "code": "S4a",
+   "name": "Huen Wing Ming Building",
+   "method": "official-name",
+   "osm": "way/545778815",
+   "distM": 0
+  },
+  {
+   "code": "CW1",
+   "name": "Ina Ho Chan Un Chan Building",
+   "method": "official-location",
+   "osm": "way/194547399",
+   "distM": 1
+  },
+  {
+   "code": "CW2",
+   "name": "C.W. Chu College Student Hostel",
+   "method": "official-location",
+   "osm": "way/194547399",
+   "distM": 15
+  },
+  {
+   "code": "YS1",
+   "name": "Wu Yee Sun College Student Hostel West Block",
+   "method": "official-location",
+   "osm": "way/194547401",
+   "distM": 0
+  },
+  {
+   "code": "YS2",
+   "name": "Wu Yee Sun College Student Hostel East Block",
+   "method": "official-location",
+   "osm": "way/194547401",
+   "distM": 0
+  },
+  {
+   "code": "YS3",
+   "name": "Wu Yee Sun College Activity Centre",
+   "method": "official-location",
+   "osm": "way/544797036",
+   "distM": 0
+  },
+  {
+   "code": "WS1",
+   "name": "Dorothy and Ti-Hua Koo Building",
+   "method": "official-name",
+   "osm": "way/194547402",
+   "distM": 0
+  },
+  {
+   "code": "WS2",
+   "name": "Lee Woo Sing College North Block",
+   "method": "official-name",
+   "osm": "way/194547400",
+   "distM": 0
+  },
+  {
+   "code": "H3b",
+   "name": "Li Dak Sum Yip Yio Chin Building",
+   "method": "official-name",
+   "osm": "way/191713160",
+   "distM": 1
+  },
+  {
+   "code": "CW3",
+   "name": "Marina Tse Chu Building",
+   "method": "official-location",
+   "osm": "way/194547399",
+   "distM": 19
+  },
+  {
+   "code": "PGH2",
+   "name": "Jockey Club Postgraduate Hall 2",
+   "method": "official-location",
+   "osm": "way/667720096",
+   "distM": 0
+  },
+  {
+   "code": "PGH3",
+   "name": "Jockey Club Postgraduate Hall 3",
+   "method": "official-location",
+   "osm": "way/667717928",
+   "distM": 0
+  },
+  {
+   "code": "E10",
+   "name": "CUHK Medical Centre",
+   "method": "official-name",
+   "osm": "way/1080920665",
+   "distM": 0
+  },
+  {
+   "code": "C41a",
+   "name": "Leung Fung Yee Building",
+   "method": "official-name",
+   "osm": "way/1000297732",
+   "distM": 1
+  },
+  {
+   "code": "C41b",
+   "name": "Kunkle Student Centre",
+   "method": "official-name",
+   "osm": "way/1000297731",
+   "distM": 0
+  },
+  {
+   "code": "N12",
+   "name": "Student Hostel",
+   "method": "official-location",
+   "osm": "way/1243363293",
+   "distM": 0
+  }
+ ],
+ "specials": [
+  {
+   "name": "chung-chi-gate",
+   "gx": 1084.031560659585,
+   "gz": 1797.8492565038741,
+   "note": "stylised gate on OSM way/1560455807"
+  },
+  {
+   "name": "university-main-entrance",
+   "gx": 497.40866193683536,
+   "gz": 1232.6043617703035,
+   "note": "four pillars + name wall at official landmark point, aligned to nearest OSM road"
+  },
+  {
+   "name": "gate-of-wisdom",
+   "gx": 721.9036472821299,
+   "gz": 1080.6119256198017,
+   "note": "stylised bronze sculpture at official landmark point"
+  }
+ ],
+ "tierA": [
+  {
+   "id": "relation/2096073",
+   "name": "Institute of Chinese Studies",
+   "model": "ics",
+   "base": 101,
+   "heightM": 7,
+   "heightSource": "reference-estimate"
+  },
+  {
+   "id": "way/107139030",
+   "name": "Sir Run Run Shaw Hall",
+   "model": "shaw_hall",
+   "base": 101,
+   "heightM": 21,
+   "heightSource": "reference-estimate"
+  },
+  {
+   "id": "way/134408692",
+   "name": "The Water Tower in New Asia College (The Gentleman Tower)",
+   "model": "tower_na",
+   "base": 157,
+   "heightM": 36,
+   "heightSource": "reference-estimate"
+  },
+  {
+   "id": "way/134410449",
+   "name": "University Library",
+   "model": "library",
+   "base": 101,
+   "heightM": 17.5,
+   "heightSource": "reference-estimate"
+  },
+  {
+   "id": "way/135156315",
+   "name": "Chung Chi College Chapel",
+   "model": "chapel",
+   "base": 32,
+   "heightM": 14,
+   "heightSource": "osm-levels"
+  },
+  {
+   "id": "way/135193162",
+   "name": "The Water Tower in United College (The Lady Tower)",
+   "model": "tower_uc",
+   "base": 148,
+   "heightM": 32,
+   "heightSource": "reference-estimate"
+  },
+  {
+   "id": "way/185266979",
+   "name": "Cheng Yu Tung Building",
+   "model": "glass_tower",
+   "base": 19,
+   "heightM": 59.5,
+   "heightSource": "osm-levels"
+  },
+  {
+   "id": "way/201907981",
+   "name": "Yasumoto International Academic Park",
+   "model": "grid_tower",
+   "base": 25,
+   "heightM": 66.4,
+   "heightSource": "osm-height"
+  },
+  {
+   "id": "way/201907994",
+   "name": "Wu Ho Man Yuen Building",
+   "model": "grid_tower",
+   "base": 27,
+   "heightM": 51.8,
+   "heightSource": "osm-height"
+  },
+  {
+   "id": "way/697781253",
+   "name": "Lion Pavilion",
+   "model": "pavilion",
+   "base": 7,
+   "heightM": 5,
+   "heightSource": "category-heuristic"
+  }
+ ]
+}

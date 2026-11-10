@@ -1,0 +1,11 @@
+node_modules
+dist
+*.tsbuildinfo
+.DS_Store
+# raw third-party downloads (large and/or not redistributable) — recreate with `npm run data:fetch`
+data/raw
+data/terrain/elevation.i16
+test-results
+playwright-report
+.vercel
+.claude

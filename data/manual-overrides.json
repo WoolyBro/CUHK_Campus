@@ -1,0 +1,82 @@
+{
+  "description": "Every manual change applied on top of the automated pipeline. Each entry records the target, the original value, the corrected value, the kind of correction, the evidence, a confidence level, the reason and the date. The world builder refuses entries that lack any of these fields.",
+  "overrides": [
+    {
+      "target": "way/134410449",
+      "field": "referenceLevels",
+      "original": null,
+      "corrected": 5,
+      "correctionType": "height-reference-estimate",
+      "evidence": "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+      "confidence": "medium",
+      "reason": "University Library has no building:levels/height in OSM. Floor count above the forecourt estimated from the photograph published with the official campus map entry (H3).",
+      "date": "2026-11-10"
+    },
+    {
+      "target": "way/134408692",
+      "field": "referenceHeightM",
+      "original": null,
+      "corrected": 36,
+      "correctionType": "height-reference-estimate",
+      "evidence": "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+      "confidence": "low",
+      "reason": "New Asia water tower: no height in OSM. Estimated from the official landmark photograph by comparison with adjacent trees and cars; not a surveyed value.",
+      "date": "2026-11-10"
+    },
+    {
+      "target": "way/135193162",
+      "field": "referenceHeightM",
+      "original": null,
+      "corrected": 32,
+      "correctionType": "height-reference-estimate",
+      "evidence": "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+      "confidence": "low",
+      "reason": "United College water tower: no height in OSM. Estimated from the official landmark photograph; not a surveyed value.",
+      "date": "2026-11-10"
+    },
+    {
+      "target": "way/107139030",
+      "field": "referenceHeightM",
+      "original": null,
+      "corrected": 21,
+      "correctionType": "height-reference-estimate",
+      "evidence": "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+      "confidence": "low",
+      "reason": "Sir Run Run Shaw Hall: auditorium volume with no levels tag in OSM. Height estimated from the official campus map photograph.",
+      "date": "2026-11-10"
+    },
+    {
+      "target": "relation/2096073",
+      "field": "referenceLevels",
+      "original": null,
+      "corrected": 2,
+      "correctionType": "height-reference-estimate",
+      "evidence": "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+      "confidence": "medium",
+      "reason": "Institute of Chinese Studies: low courtyard building with no levels tag in OSM. Two storeys estimated from the official campus map photograph.",
+      "date": "2026-11-10"
+    },
+    {
+      "target": "official-landmark/1",
+      "field": "placement",
+      "original": null,
+      "corrected": "Four pillars and a name wall generated at the official landmark point (22.418046, 114.203208), aligned to the nearest OSM road centre-line.",
+      "correctionType": "landmark-placement",
+      "evidence": "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+      "confidence": "low",
+      "reason": "The University Main Entrance pillars are not mapped as geometry in OSM. Position comes from the official map point; the arrangement is an interpretation of the official photograph, not a survey.",
+      "date": "2026-11-10"
+    },
+    {
+      "target": "official-landmark/2",
+      "field": "placement",
+      "original": null,
+      "corrected": "Stylised bronze sculpture generated at the official landmark point for the Gate of Wisdom.",
+      "correctionType": "landmark-placement",
+      "evidence": "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+      "confidence": "low",
+      "reason": "The sculpture is not mapped in OSM. Position from the official map point; form is symbolic.",
+      "date": "2026-11-10"
+    }
+  ]
+}

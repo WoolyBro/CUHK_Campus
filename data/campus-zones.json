@@ -1,0 +1,20 @@
+{
+  "description": "Named geographic zones of the CUHK Sha Tin campus. Zones 1–13 follow the campus/college grouping of the official CUHK campus map; membership comes from the official building list. Each zone can be enabled, disabled or expanded independently; the build derives the zone grid from these settings.",
+  "sourceUrl": "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+  "zones": [
+    { "id": 1, "key": "central", "nameEn": "Central Campus", "nameZh": "中央校園", "source": "official-campus-id", "enabled": true, "expandRadiusM": 110 },
+    { "id": 2, "key": "chung-chi", "nameEn": "Chung Chi College", "nameZh": "崇基學院", "source": "official-campus-id", "enabled": true, "expandRadiusM": 110 },
+    { "id": 3, "key": "new-asia", "nameEn": "New Asia College", "nameZh": "新亞書院", "source": "official-campus-id", "enabled": true, "expandRadiusM": 100 },
+    { "id": 4, "key": "united", "nameEn": "United College", "nameZh": "聯合書院", "source": "official-campus-id", "enabled": true, "expandRadiusM": 100 },
+    { "id": 5, "key": "shaw", "nameEn": "Shaw College", "nameZh": "逸夫書院", "source": "official-campus-id", "enabled": true, "expandRadiusM": 110 },
+    { "id": 6, "key": "residential", "nameEn": "Residential Area", "nameZh": "宿舍", "source": "official-campus-id", "enabled": true, "expandRadiusM": 80 },
+    { "id": 7, "key": "eastern", "nameEn": "Eastern Campus", "nameZh": "校園東區", "source": "official-campus-id", "enabled": true, "expandRadiusM": 120 },
+    { "id": 8, "key": "morningside", "nameEn": "Morningside College", "nameZh": "晨興書院", "source": "official-campus-id", "enabled": true, "expandRadiusM": 70 },
+    { "id": 9, "key": "sh-ho", "nameEn": "S.H. Ho College", "nameZh": "善衡書院", "source": "official-campus-id", "enabled": true, "expandRadiusM": 70 },
+    { "id": 10, "key": "cw-chu", "nameEn": "C.W. Chu College", "nameZh": "敬文書院", "source": "official-campus-id", "enabled": true, "expandRadiusM": 80 },
+    { "id": 11, "key": "wu-yee-sun", "nameEn": "Wu Yee Sun College", "nameZh": "伍宜孫書院", "source": "official-campus-id", "enabled": true, "expandRadiusM": 70 },
+    { "id": 12, "key": "lee-woo-sing", "nameEn": "Lee Woo Sing College", "nameZh": "和聲書院", "source": "official-campus-id", "enabled": true, "expandRadiusM": 70 },
+    { "id": 13, "key": "area-39", "nameEn": "Area 39", "nameZh": "第三十九區", "source": "official-campus-id", "enabled": true, "expandRadiusM": 130 },
+    { "id": 14, "key": "station", "nameEn": "University MTR Station area", "nameZh": "港鐵大學站", "source": "anchor-radius", "anchor": "osm:railway=station", "enabled": true, "expandRadiusM": 110 }
+  ]
+}

@@ -1,0 +1,167 @@
+@import 'tailwindcss';
+@import '@fontsource/pixelify-sans/400.css';
+@import '@fontsource/pixelify-sans/600.css';
+
+@theme {
+  --font-pixel: 'Pixelify Sans', ui-monospace, monospace;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'PingFang HK', 'Microsoft JhengHei', sans-serif;
+  --color-ink: #1b2430;
+  --color-panel: #f7f5ee;
+  --color-edge: #2a3442;
+  --color-grass: #4f9a3a;
+  --color-sun: #ffd23f;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  overscroll-behavior: none;
+  background: #9fd0f2;
+}
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+canvas {
+  display: block;
+  touch-action: none;
+  outline: none;
+}
+
+/* Block-style panels: square corners, hard 2px edge, offset shadow — original UI, no game assets. */
+.panel {
+  background: var(--color-panel);
+  border: 2px solid var(--color-edge);
+  box-shadow: 4px 4px 0 rgb(27 36 48 / 0.35);
+}
+.panel-dark {
+  background: rgb(24 31 42 / 0.9);
+  color: #f3f1ea;
+  border: 2px solid #0f141b;
+  box-shadow: 4px 4px 0 rgb(0 0 0 / 0.3);
+  backdrop-filter: blur(6px);
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  min-height: 40px;
+  min-width: 40px;
+  padding: 0 0.75rem;
+  border: 2px solid var(--color-edge);
+  background: #ffffff;
+  color: var(--color-ink);
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 rgb(27 36 48 / 0.3);
+  transition:
+    transform 80ms,
+    background 120ms;
+  user-select: none;
+}
+nav .btn {
+  flex-shrink: 0;
+}
+.btn:hover {
+  background: #eef6e6;
+}
+.btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+.btn[aria-pressed='true'],
+.btn.is-on {
+  background: var(--color-grass);
+  color: #fff;
+}
+.btn-primary {
+  background: var(--color-sun);
+  border-color: #7a5a00;
+}
+.btn-primary:hover {
+  background: #ffe07a;
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+:focus-visible {
+  outline: 3px solid #ff7a1a;
+  outline-offset: 2px;
+}
+
+.label-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 5;
+}
+.map-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: auto;
+  cursor: pointer;
+  white-space: nowrap;
+  max-width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 2px 7px;
+  font: 600 12px/18px var(--font-sans);
+  color: #fff;
+  background: rgb(24 31 42 / 0.82);
+  border: 2px solid rgb(10 14 20 / 0.9);
+  will-change: transform;
+  transition: opacity 160ms;
+}
+.map-label .tag {
+  margin-left: 6px;
+  padding: 0 4px;
+  background: var(--color-sun);
+  color: #1b2430;
+  font-size: 10px;
+}
+.map-label.kind-zone {
+  background: rgb(255 255 255 / 0.9);
+  color: #1b2430;
+  font-family: var(--font-pixel);
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.map-label.kind-landmark,
+.map-label.tier-a {
+  background: rgb(122 74 0 / 0.9);
+}
+.map-label.kind-road {
+  background: rgb(60 64 70 / 0.8);
+  font-weight: 500;
+  font-style: italic;
+}
+.map-label.kind-stop,
+.map-label.kind-facility {
+  background: rgb(36 78 140 / 0.86);
+  font-weight: 500;
+}
+.map-label.is-selected {
+  background: var(--color-sun);
+  color: #1b2430;
+  border-color: #7a5a00;
+}
+
+.scroll-thin {
+  scrollbar-width: thin;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

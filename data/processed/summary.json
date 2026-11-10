@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-11-10T05:00:18.658Z",
+  "source": {
+    "file": "data/raw/osm-cuhk.json",
+    "fetchedAt": "2026-11-10T04:53:19.298Z",
+    "osmBase": "2026-11-10T04:52:16Z",
+    "licence": "ODbL 1.0 — © OpenStreetMap contributors"
+  },
+  "counts": {
+    "buildings": 754,
+    "roads": 727,
+    "paths": 614,
+    "stairs": 136,
+    "bridges": 111,
+    "waterways": 61,
+    "vegetation": 321,
+    "facilities": 362,
+    "transport": 159,
+    "terrain-features": 48
+  },
+  "skippedUnclassified": 579,
+  "flagged": [
+    {
+      "id": "way/772869179",
+      "group": "buildings",
+      "flags": [
+        "tiny-footprint",
+        "no-attributes"
+      ]
+    },
+    {
+      "id": "way/1328114548",
+      "group": "buildings",
+      "flags": [
+        "under-construction"
+      ],
+      "name": "Centralized General Research Laboratory Complex (Block 2)"
+    },
+    {
+      "id": "way/1344748884",
+      "group": "buildings",
+      "flags": [
+        "under-construction"
+      ],
+      "name": "Choi Kai Yau Residence"
+    },
+    {
+      "id": "way/1424777851",
+      "group": "buildings",
+      "flags": [
+        "under-construction"
+      ],
+      "name": "Teaching - Research Complex"
+    },
+    {
+      "id": "way/772869172",
+      "group": "paths",
+      "flags": [
+        "degenerate-line"
+      ]
+    }
+  ]
+}

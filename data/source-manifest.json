@@ -1,0 +1,95 @@
+{
+  "description": "Every external source used by CUHK Voxel Campus, with licence status. Checked before modelling began (Milestone 0).",
+  "accessDate": "2026-11-10",
+  "sources": [
+    {
+      "id": "osm",
+      "name": "OpenStreetMap (via Overpass API)",
+      "url": "https://www.openstreetmap.org/",
+      "licence": "Open Database License (ODbL) 1.0",
+      "licenceUrl": "https://www.openstreetmap.org/copyright",
+      "accessDate": "2026-11-10",
+      "dataUsed": "Campus boundary (relation 7802779); building footprints and tags; roads, footpaths, steps, bridges, railway; water, coastline, woodland, grass, gardens; pitches, car parks, squares; entrances, bus stops, named points.",
+      "role": "Geometry of every mapped feature.",
+      "shippedInSite": "Derived block data only (rasterised and meshed). Raw extract cached in data/raw/ (git-ignored).",
+      "derivativesPublishable": true,
+      "attribution": "© OpenStreetMap contributors",
+      "restrictions": "Attribution required; derived databases must stay under ODbL. Queried once by script for a bounded study-area polygon — the website never calls Overpass."
+    },
+    {
+      "id": "landsd-dtm",
+      "name": "Lands Department, HKSAR Government — Digital Terrain Model (5 m grid)",
+      "url": "https://data.gov.hk/en-data/dataset/hk-landsd-openmap-5m-grid-dtm",
+      "licence": "DATA.GOV.HK Terms and Conditions of Use",
+      "licenceUrl": "https://data.gov.hk/en/terms-and-conditions",
+      "accessDate": "2026-11-10",
+      "dataUsed": "Whole_HK_DTM_5m.asc cropped to the study area (377 × 427 cells), resampled to a 1 m grid.",
+      "role": "Terrain elevation.",
+      "shippedInSite": "Derived block heights only.",
+      "derivativesPublishable": true,
+      "attribution": "Terrain: Digital Terrain Model © The Government of the Hong Kong SAR (Lands Department), from DATA.GOV.HK",
+      "restrictions": "Free for commercial and non-commercial use provided the source is identified and the Government's ownership acknowledged. Published accuracy ±5 m; surface may include vegetation and elevated structures."
+    },
+    {
+      "id": "cuhk-map",
+      "name": "The Chinese University of Hong Kong — official Campus Map and its location database",
+      "url": "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+      "licence": "Copyright © The Chinese University of Hong Kong. All Rights Reserved. (No open licence.)",
+      "licenceUrl": "https://www.cuhk.edu.hk/english/disclaimer.html",
+      "accessDate": "2026-11-10",
+      "dataUsed": "Official building names (English / Chinese), map codes, short codes, campus-zone membership, landmark names, shuttle-bus stop names and their published map points.",
+      "role": "Authoritative naming and campus semantics; cross-check of building placement.",
+      "shippedInSite": "Factual names, codes, zone ids and point coordinates only, with attribution. The raw database, photographs and map artwork are NOT shipped.",
+      "derivativesPublishable": "Facts only — not an open dataset. Seek permission from CUHK before any commercial use.",
+      "attribution": "Building names, codes and zones: official CUHK Campus Map (© The Chinese University of Hong Kong)",
+      "restrictions": "Not open data. The official map states it may not be drawn to scale and is not updated in real time. This project is unofficial and not affiliated with or endorsed by CUHK."
+    },
+    {
+      "id": "cuhk-photos",
+      "name": "Photographs published with official CUHK Campus Map entries",
+      "url": "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+      "licence": "Copyright © The Chinese University of Hong Kong. All Rights Reserved.",
+      "licenceUrl": "https://www.cuhk.edu.hk/english/disclaimer.html",
+      "accessDate": "2026-11-10",
+      "dataUsed": "Viewed privately to understand façade colours, roof forms and massing of the Tier A landmarks.",
+      "role": "Private visual reference for bespoke landmark models.",
+      "shippedInSite": "Nothing. No photograph or derivative image is included.",
+      "derivativesPublishable": false,
+      "attribution": "Not applicable (not redistributed)",
+      "restrictions": "Reference only."
+    },
+    {
+      "id": "landsd-imagery",
+      "name": "Lands Department — Hong Kong Imagery Map API",
+      "url": "https://portal.csdi.gov.hk/csdi-webpage/apidoc/ImageryMapAPI",
+      "licence": "CSDI / Hong Kong Map Service terms of use",
+      "licenceUrl": "https://api.portal.hkmapservice.gov.hk/disclaimer",
+      "accessDate": "2026-11-10",
+      "dataUsed": "None in this release.",
+      "role": "Identified as a lawful source for future visual validation of footprints, paths and vegetation. Not used to build or texture the model.",
+      "shippedInSite": "Nothing.",
+      "derivativesPublishable": "Subject to its terms; attribution and Lands Department logo required when displayed.",
+      "attribution": "Not applicable (not used)",
+      "restrictions": "Would be a private validation reference only; never draped over the model."
+    },
+    {
+      "id": "font",
+      "name": "Pixelify Sans typeface (via @fontsource)",
+      "url": "https://fontsource.org/fonts/pixelify-sans",
+      "licence": "SIL Open Font License 1.1",
+      "licenceUrl": "https://openfontlicense.org/",
+      "accessDate": "2026-11-10",
+      "dataUsed": "Headline typeface.",
+      "role": "User interface.",
+      "shippedInSite": "Font files (self-hosted).",
+      "derivativesPublishable": true,
+      "attribution": "Pixelify Sans © Stefie Justprince, OFL 1.1",
+      "restrictions": "None beyond the OFL."
+    }
+  ],
+  "notUsed": [
+    "Google Maps / Google Earth, Bing Maps, Apple Maps, Mapbox imagery — not used in any form.",
+    "OpenStreetMap raster tiles — not downloaded.",
+    "Minecraft / Mojang textures, sounds, logos, fonts or game files — none. All block textures are procedural and original."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+    "target": "ES2023",
+    "lib": ["ES2023", "DOM"],
+    "module": "ESNext",
+    "types": ["node"],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true
+  },
+  "include": ["vite.config.ts", "playwright.config.ts", "scripts", "tests", "e2e", "src/lib/geo", "src/lib/voxel/palette.ts", "src/lib/voxel/mesher.ts", "src/lib/voxel/world-format.ts"]
+}

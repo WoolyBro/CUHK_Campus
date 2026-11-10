@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-11-10T04:57:49.910Z",
+  "source": "Lands Department, HKSAR Government — Digital Terrain Model (5 m grid), Whole_HK_DTM_5m.asc",
+  "sourceCrs": "Hong Kong 1980 Grid (EPSG:2326), heights in metres above HKPD",
+  "sourceCellM": 5,
+  "sourceAccuracyNote": "Published accuracy ±5 m; vegetated ground and elevated structures may be included in the surface.",
+  "crop": {
+    "col0": 7684,
+    "col1": 8060,
+    "row0": 3150,
+    "row1": 3576
+  },
+  "grid": {
+    "sizeX": 1792,
+    "sizeZ": 2048,
+    "minX": -896,
+    "minZ": -1024,
+    "unit": "decimetre",
+    "layout": "row-major, row 0 = northern edge (min Z)"
+  },
+  "resampling": "Catmull-Rom bicubic (range-clamped) + 2× box blur radius 2 m",
+  "stats": {
+    "minM": -4,
+    "maxM": 256.9,
+    "seaFraction": 0.077
+  }
+}
